@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ch17FutureValueFXML/Ch17FutureValueFXML.iml" filepath="$PROJECT_DIR$/Ch17FutureValueFXML/Ch17FutureValueFXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ex2c/Ex2c.iml" filepath="$PROJECT_DIR$/Ex2c/Ex2c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex2d/Ex2d.iml" filepath="$PROJECT_DIR$/Ex2d/Ex2d.iml" />
       <module fileurl="file://$PROJECT_DIR$/ian.gierhan.iml" filepath="$PROJECT_DIR$/ian.gierhan.iml" />
     </modules>
   </component>
