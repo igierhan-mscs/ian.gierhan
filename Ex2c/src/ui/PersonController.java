@@ -1,12 +1,9 @@
 package ui;
 
-import java.text.NumberFormat;
-
+import business.Person;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
-
-import business.Person;
 
 public class PersonController {
     private Person person1 = null;
