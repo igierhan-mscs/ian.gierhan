@@ -290,8 +290,8 @@ public class ApartmentController {
             this.bathroomsTextField.setText(Integer.toString(this.apartment1.getBathrooms()));
             this.priceLabel.setText(Double.toString(this.apartment1.getPrice()));
             this.updatedLabel.setText(this.apartment1.getUpdated().toString());
-            this.saveApartment1Button.setDisable(true);
-            this.displayApartment1Button.setDisable(false);
+            this.saveApartment1Button.setDisable(false);
+            this.displayApartment1Button.setDisable(true);
             this.apartmentIdTextField.requestFocus();
         }
     }
@@ -305,8 +305,8 @@ public class ApartmentController {
             this.bathroomsTextField.setText(Integer.toString(this.apartment2.getBathrooms()));
             this.priceLabel.setText(Double.toString(this.apartment2.getPrice()));
             this.updatedLabel.setText(this.apartment2.getUpdated().toString());
-            this.saveApartment2Button.setDisable(true);
-            this.displayApartment2Button.setDisable(false);
+            this.saveApartment2Button.setDisable(false);
+            this.displayApartment2Button.setDisable(true);
             this.apartmentIdTextField.requestFocus();
         }
     }
@@ -320,8 +320,8 @@ public class ApartmentController {
             this.bathroomsTextField.setText(Integer.toString(this.apartment3.getBathrooms()));
             this.priceLabel.setText(Double.toString(this.apartment3.getPrice()));
             this.updatedLabel.setText(this.apartment3.getUpdated().toString());
-            this.saveApartment3Button.setDisable(true);
-            this.displayApartment3Button.setDisable(false);
+            this.saveApartment3Button.setDisable(false);
+            this.displayApartment3Button.setDisable(true);
             this.apartmentIdTextField.requestFocus();
         }
     }
