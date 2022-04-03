@@ -9,6 +9,8 @@ public class Apartment {
     private int bathrooms;
     private double price;
     private LocalDateTime updated;
+    private Person administrator;
+    private Person renter;
 
     public Apartment() {
         this.apartmentId = 0;
@@ -17,6 +19,8 @@ public class Apartment {
         this.bathrooms = 0;
         this.price = 0.0;
         this.updated = LocalDateTime.now();
+        this.administrator = null;
+        this.renter = null;
     }
 
 //    public Apartment(int apartmentId, String location, String apartmentNum, int squareFeet, int bathrooms, double price) {
@@ -44,6 +48,8 @@ public class Apartment {
     public LocalDateTime getUpdated() {
         return updated;
     }
+    public Person getAdministrator() { return administrator; }
+    public Person getRenter() { return renter; }
 
     public String setApartmentId(int apartmentId) {
         String errMsg = "";
@@ -109,6 +115,10 @@ public class Apartment {
     public void setUpdated(LocalDateTime updated) {
         this.updated = updated;
     }
+
+    public void setAdministrator(Person administrator) { this.administrator = administrator; }
+
+    public void setRenter(Person renter) { this.renter = renter; }
 
     @Override
     public String toString() {

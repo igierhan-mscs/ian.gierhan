@@ -129,4 +129,18 @@ class ApartmentTest {
         this.apt.setPrice();
         assertEquals(this.apt.getPrice(), 1200.0);
     }
+
+    @Test
+    void getAdministrator() {
+        Person person = new Person(101, "First Name", "Last Name", "User Name");
+        this.apt.setAdministrator(person);
+        assertEquals(this.apt.getAdministrator().getPersonId(), 101);
+    }
+
+    @Test
+    void getRenter() {
+        Person person = new Person(101, "First Name", "Last Name", "User Name");
+        this.apt.setRenter(person);
+        assertEquals(this.apt.getRenter().getPersonId(), 101);
+    }
 }

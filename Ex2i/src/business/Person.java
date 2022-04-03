@@ -42,7 +42,7 @@ public class Person {
 
     public String setFirstName(String firstName) {
         String errMsg = "";
-        if (firstName.length() > 2 && firstName.length() <= 15)
+        if (firstName != null && firstName.length() > 2 && firstName.length() <= 15)
             this.firstName = firstName;
         else
             errMsg = firstName + " is invalid. First name must be > 2 and <= 15 characters";
@@ -52,7 +52,7 @@ public class Person {
 
     public String setLastName(String lastName) {
         String errMsg = "";
-        if (lastName.length() >= 2 && lastName.length() <= 30) {
+        if (lastName != null && lastName.length() >= 2 && lastName.length() <= 30) {
             this.lastName = lastName;
         }
         else
@@ -63,7 +63,7 @@ public class Person {
 
     public String setUserName(String userName){
         String errMsg = "";
-        if (userName.length() >= 5 && userName.length() <= 30) {
+        if (userName != null && userName.length() >= 5 && userName.length() <= 30) {
             switch (userName.toLowerCase()) {
                 case "admin":
                 case "administrator":
